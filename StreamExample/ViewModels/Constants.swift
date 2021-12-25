@@ -1,6 +1,6 @@
 import Foundation
 
 struct Constants {
-    static let APIKey = "j4ben24rfefj"
+    static let APIKey = "xxxxxxxxxxx"
     static let UserID = "userId"
 }
