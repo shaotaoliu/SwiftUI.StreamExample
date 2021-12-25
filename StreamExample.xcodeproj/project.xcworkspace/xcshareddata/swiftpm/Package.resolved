@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "StreamChat",
+        "repositoryURL": "https://github.com/GetStream/stream-chat-swift.git",
+        "state": {
+          "branch": "develop",
+          "revision": "a55185a8863173f0fb0737659b698e56102f40fc",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
