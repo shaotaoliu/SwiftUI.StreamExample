@@ -53,5 +53,6 @@ The following shows the messages sent in a channel.
 
 ![image](https://user-images.githubusercontent.com/15805568/147377922-7ac07337-0d01-4da1-88fd-7b4df9ab70a2.png)
 
-https://dashboard.getstream.io/dashboard/v2/organization/1101522
-https://getstream.io/chat/docs/ios-swift/?language=swift
+Create Stream App: https://dashboard.getstream.io/dashboard/v2/organization/1101522
+
+Stream Documents: https://getstream.io/chat/docs/ios-swift/?language=swift
