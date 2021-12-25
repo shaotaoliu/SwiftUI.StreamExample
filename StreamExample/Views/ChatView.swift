@@ -14,6 +14,8 @@ struct ChatView: View {
                             ChatRowView(message: message)
                         }
                     }
+                    .padding()
+                    .padding(.bottom, 25)
                     .id("bottomId")
                 }
                 .onChange(of: listener.messages, perform: { _ in
@@ -27,7 +29,6 @@ struct ChatView: View {
                     }
                 })
             }
-            .padding(.bottom, 10)
             
             HStack {
                 TextField("Message", text: $vm.newMessage)
@@ -50,8 +51,9 @@ struct ChatView: View {
                     .disabled(vm.newMessage.isEmpty)
                     .opacity(vm.newMessage.isEmpty ? 0.5 : 1)
             }
+            .padding(.horizontal)
+            .padding(.bottom, 10)
         }
-        .padding()
         .navigationTitle(listener.channel?.name ?? "")
         .navigationBarTitleDisplayMode(.inline)
     }
